@@ -1,0 +1,67 @@
+﻿<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DNA omics illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1b4d"/>
+      <stop offset="100%" stop-color="#123a97"/>
+    </linearGradient>
+    <linearGradient id="dna1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ce7ff"/>
+      <stop offset="100%" stop-color="#9b8bff"/>
+    </linearGradient>
+    <linearGradient id="dna2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#32d1ff"/>
+      <stop offset="100%" stop-color="#4ef0c3"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+
+  <g opacity="0.32" fill="#b7ccff">
+    <circle cx="90" cy="90" r="2"/><circle cx="280" cy="180" r="2"/><circle cx="420" cy="60" r="1.5"/>
+    <circle cx="1120" cy="100" r="2"/><circle cx="960" cy="220" r="1.8"/><circle cx="1080" cy="330" r="2"/>
+    <circle cx="250" cy="520" r="2"/><circle cx="370" cy="650" r="1.8"/><circle cx="940" cy="620" r="2"/>
+    <circle cx="1040" cy="520" r="1.8"/><circle cx="150" cy="640" r="2"/><circle cx="580" cy="700" r="1.8"/>
+  </g>
+
+  <g stroke="#7da8ff" stroke-opacity="0.2" stroke-width="1">
+    <line x1="130" y1="130" x2="280" y2="180"/>
+    <line x1="280" y1="180" x2="420" y2="60"/>
+    <line x1="960" y1="220" x2="1120" y2="100"/>
+    <line x1="1040" y1="520" x2="940" y2="620"/>
+    <line x1="250" y1="520" x2="370" y2="650"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M400 90 C 640 140, 560 240, 760 310 C 930 370, 830 500, 700 560 C 550 630, 620 700, 850 720"
+          fill="none" stroke="url(#dna1)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M780 90 C 540 140, 620 240, 420 310 C 250 370, 350 500, 480 560 C 630 630, 560 700, 330 720"
+          fill="none" stroke="url(#dna2)" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <g stroke="#dff7ff" stroke-width="6" stroke-linecap="round" opacity="0.8">
+    <line x1="436" y1="140" x2="742" y2="140"/>
+    <line x1="468" y1="200" x2="716" y2="220"/>
+    <line x1="504" y1="268" x2="678" y2="308"/>
+    <line x1="460" y1="360" x2="716" y2="362"/>
+    <line x1="488" y1="446" x2="688" y2="420"/>
+    <line x1="536" y1="520" x2="652" y2="494"/>
+    <line x1="568" y1="592" x2="632" y2="548"/>
+    <line x1="566" y1="664" x2="632" y2="620"/>
+  </g>
+
+  <g fill="#9cecff" opacity="0.85">
+    <circle cx="436" cy="140" r="7"/><circle cx="742" cy="140" r="7"/>
+    <circle cx="468" cy="200" r="6"/><circle cx="716" cy="220" r="6"/>
+    <circle cx="504" cy="268" r="6"/><circle cx="678" cy="308" r="6"/>
+    <circle cx="460" cy="360" r="6"/><circle cx="716" cy="362" r="6"/>
+    <circle cx="488" cy="446" r="6"/><circle cx="688" cy="420" r="6"/>
+    <circle cx="536" cy="520" r="6"/><circle cx="652" cy="494" r="6"/>
+  </g>
+</svg>
